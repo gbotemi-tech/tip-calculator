@@ -1,0 +1,105 @@
+/*body {
+    font-size: 1.18em;
+    width: 100%;
+    margin: 0 auto;
+    letter-spacing: 0.5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    background: linear-gradient(-45deg, rgb(245, 156, 127), rgb(241, 89, 38));
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    padding: 1em;
+}
+
+div {
+    line-height: 3.4rem;
+}
+
+input[type="text"] {
+    text-align: center;
+    font-size: 1rem;
+}
+
+label, input {
+    width: 100%;
+}
+*/
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(-45deg, rgb(114, 93, 151), rgb(144, 34, 154));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Slabo 27px', serif;
+}
+
+.container {
+    background: linear-gradient(-45deg, rgb(245, 156, 127), rgb(241, 89, 38));
+    width: 300px;
+    max-width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    padding-bottom: 40px;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+    font-size: 35px;
+}
+
+div {
+    line-height: 3rem;
+}
+
+.input, .output {
+    margin: 10px 50px 0px 15px;
+}
+
+input[type="text"] {
+    text-align: center;
+    width: 70%;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    font-size: 16px;
+}
+
+input[type="range"] {
+    align-items: center;
+    width: 70%;
+}
+
+
+label, input {
+    font-size: 16px;
+}
+
+@media (min-width:700px) {
+    body {
+        width: 100%;
+        background: url("https://image.shutterstock.com/z/stock-photo-wood-brown-plank-texture-background-224170492.jpg") no-repeat center center fixed;
+        background-size: cover;
+    }
+    .container {
+        opacity: 0.9;
+        width: 400px;
+    }
+    label, input {
+        display: inline;
+        width: 100%;
+    }
+}
